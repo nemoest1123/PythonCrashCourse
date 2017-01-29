@@ -1,0 +1,2 @@
+# Python Template for Geany
+
