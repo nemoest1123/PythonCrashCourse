@@ -1,7 +1,10 @@
 # Python Template for Geany
 
-def greet_user(username):
-    """Display a simple greeting."""
-    print("Hello, " + username.title() + "!")
+def greet_user(names):
+    """Print a simple greeting to each user in the list."""
+    for name in names:
+        msg = "Hello, " + name.title() + "!"
+        print(msg)
 
-greet_user('jesse')
+usernames = ['hannah', 'ty', 'margot', 'jesse']
+greet_user(usernames)
